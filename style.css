@@ -53,46 +53,53 @@ main {
   font-size: 5rem;
 }
 #welcome-section > h4 {
-  color: indianred;
+  color: darkslateblue;
   font-size: 1.5rem;
   font-weight: 400;
 }
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: indianred;
+  background: darkslateblue;
 }
-#project-grid {
+.projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  row-gap: 4rem;
+  column-gap: 4rem;
+}
+.project-image {
   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-  column-gap: 30px;
-  row-gap: 30px;
-}
-.project-tile {
-  background-color: #303841;
-  color: white;
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.project-tile > img {
+  height: calc(100% - 4.8rem);
   object-fit: cover;
-  max-width: 100%;
-  max-height: 100%;
 }
-.project-tile > h2 {
-  font-weight: 400;
+.project-title {
+  font-size: 1.3rem;
+  padding: 0.2rem 0.5rem;
 }
-#project-grid > a {
-  text-decoration: none;
+.project {
+  background-color: black;
+  color: white;
+}
+.code {
+  color: black;
+  transition: color 0.3s ease-out;
+}
+.project:hover .code {
+  color: orangered;
+}
+.contact-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: rgb(58, 69, 71);
+  color: white;
+}
+.contact-title {
+  font-size: 3rem;
 }
 /* RESPONSIVE STUFF */
 @media screen and (max-width: 992px) {
-  a {
+  #nav-link {
     font-size: large !important;
     margin: 0 5% !important;
   }
