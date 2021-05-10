@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap");
+*,
+*::before,
+*::after {
+  font-family: "Rubik", sans-serif;
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: darkslateblue;
+}
+nav > a {
+  margin: 0 20px;
+}
+nav > a:link,
+nav > a:visited {
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
+}
+#navbar {
+  background-color: darkslateblue;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+main {
+  margin-top: 70px;
+}
+#welcome-section {
+  height: calc(100vh - 70px);
+  height: -o-calc(100vh - 70px);
+  height: -webkit-calc(100vh - 70px);
+  height: -moz-calc(100vh - 70px);
+  background-color: dimgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#welcome-section > h1 {
+  color: white;
+  font-size: 5rem;
+}
+#welcome-section > h4 {
+  color: indianred;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: indianred;
+}
+#project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  column-gap: 30px;
+  row-gap: 30px;
+}
+.project-tile {
+  background-color: #303841;
+  color: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-tile > img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+.project-tile > h2 {
+  font-weight: 400;
+}
+#project-grid > a {
+  text-decoration: none;
+}
+/* RESPONSIVE STUFF */
+@media screen and (max-width: 992px) {
+  a {
+    font-size: large !important;
+    margin: 0 5% !important;
+  }
+}
