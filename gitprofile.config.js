@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'mkkurt', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -11,30 +11,28 @@ const config = {
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'mkutaykurt',
+    twitter: 'lmnwlf',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: 'mkkurt',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://kutaykurt.me',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'kutaykurt99@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -43,25 +41,16 @@ const config = {
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'ICONICLI',
+      position: 'Developer Intern',
+      from: 'September 2022',
+      to: 'December 2022',
+      companyLink: 'https://iconicli.com',
     },
   ],
   /* certifications: [
@@ -72,42 +61,42 @@ const config = {
       link: 'https://example.com'
     },
   ], */
-  education: [
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
+  // education: [
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2015',
+  //     to: '2019',
+  //   },
+  //   {
+  //     institution: 'Institution Name',
+  //     degree: 'Degree',
+  //     from: '2012',
+  //     to: '2014',
+  //   },
+  // ],
 
   // To hide the `My Projects` section, keep it empty.
-  externalProjects: [
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-    {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
-    },
-  ],
+  // externalProjects: [
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  //   {
+  //     title: 'Project Name',
+  //     description:
+  //       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+  //     imageUrl: 'https://via.placeholder.com/250x250',
+  //     link: 'https://example.com',
+  //   },
+  // ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
@@ -179,11 +168,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with ❤️`,
 };
 
 export default config;
